@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="sub-btn">Subscribe</button>
+
+    <div class="modal hidden">
+      <form class="form" action="#">
+        <span class="login">Login</span><br />
+        <span class="x">&times;</span>
+        <label for="username" class="username">Username</label><br />
+        <input type="text" id="username" name="usertname" /><br />
+        <label for="password" class="password">Password</label> <br />
+        <input type="text" id="password" name="password" /><br />
+        <input type="button" id="button" value="Submit" />
+      </form>
+    </div>
+    <div class="submit hidden">
+      <p class="thanks">Thank you</p>
+      <span class="checkmark">&#x2705</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
